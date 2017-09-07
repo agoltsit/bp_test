@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "BP-DevOpsT-A-V"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D1_v2"
+        },
+        "adminUsername": {
+            "value": "Arnis"
+        },
+        "virtualNetworkName": {
+            "value": "WindowsAzure"
+        },
+        "networkInterfaceName": {
+            "value": "DevOPS-NIC1"
+        },
+        "networkSecurityGroupName": {
+            "value": "NSG_DevOpsTest"
+        },
+        "adminPassword": {
+            "value": "pa$$w0rd"
+        },
+        "storageAccountName": {
+            "value": "bpdevopstest"
+        },
+        "subnetName": {
+            "value": "DevOpsTest"
+        }
+    }
+}
