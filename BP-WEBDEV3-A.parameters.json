@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "BP-WEBDEV3-A"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D1_v2"
+        },
+        "adminUsername": {
+            "value": "locAdmin"
+        },
+        "virtualNetworkName": {
+            "value": "WindowsAzure"
+        },
+        "networkInterfaceName": {
+            "value": "Nic01WebDev2"
+        },
+        "networkSecurityGroupName": {
+            "value": "NSG_DevFrontEnd"
+        },
+        "adminPassword": {
+            "value": "b0xp10sive_PasswD12"
+        },
+        "storageAccountName": {
+            "value": "bpdevtest"
+        },
+        "subnetName": {
+            "value": "DevFrontEnd"
+        }
+    }
+}
