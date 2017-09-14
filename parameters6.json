@@ -1,0 +1,54 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "westeurope"
+        },
+        "virtualMachineName": {
+            "value": "BP-DevOpsT-A-V"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_D1_v2"
+        },
+        "adminUsername": {
+            "value": "Arnis"
+        },
+        "virtualNetworkName": {
+            "value": "WindowsAzure"
+        },
+        "networkInterfaceName": {
+            "value": "DevOPS-NIC1"
+        },
+        "networkSecurityGroupName": {
+            "value": "NSG_DevOpsTest"
+        },
+        "adminPassword": {
+            "value": "talavijA_1974"
+        },
+        "storageAccountName": {
+            "value": "bpdevtest"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "bpdevestlogs"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/9abfdea3-bf30-4d59-bc67-7a3dfa22309f/resourceGroups/bpv-devtest-internal/providers/Microsoft.Storage/storageAccounts/bpdevestlogs"
+        },
+        "subnetName": {
+            "value": "DevOpsTest"
+        },
+        "autoShutdownStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownTime": {
+            "value": "19:00"
+        },
+        "autoShutdownTimeZone": {
+            "value": "W. Europe Standard Time"
+        },
+        "autoShutdownNotificationStatus": {
+            "value": "Disabled"
+        }
+    }
+}
