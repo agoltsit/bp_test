@@ -42,7 +42,7 @@
             "value": "Enabled"
         },
         "autoShutdownTime": {
-            "value": "19:00"
+            "value": "23:00"
         },
         "autoShutdownTimeZone": {
             "value": "W. Europe Standard Time"
