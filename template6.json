@@ -373,10 +373,10 @@
                 },
                 "parameters": {
                     "vmName": {
-                        "value": "BP-DevOpsT-A-V"
+                        "value": "[parameters('virtualMachineName')]",
                     },
                     "location": {
-                        "value": "westeurope"
+                        "value": "[parameters('location')]",
                     },
                     "RealtimeProtectionEnabled": {
                         "value": "true"
@@ -410,10 +410,10 @@
                 },
                 "parameters": {
                     "vmName": {
-                        "value": "BP-DevOpsT-A-V"
+                        "value": "[parameters('virtualMachineName')]",
                     },
                     "location": {
-                        "value": "westeurope"
+                        "value": "[parameters('location')]",
                     },
                     "puppetMasterFqdn": {
                         "value": "puppet.boxplosive.net"
@@ -460,7 +460,7 @@
                             "subnet": {
                                 "id": "[variables('subnetRef')]"
                             },
-                            "privateIPAllocationMethod": "Dynamic"
+                            "privateIPAllocationMethod": "Static"
                         }
                     }
                 ],
