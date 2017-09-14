@@ -12,7 +12,7 @@
             "value": "Standard_D1_v2"
         },
         "adminUsername": {
-            "value": "Arnis"
+            "value": "VmAdmin"
         },
         "virtualNetworkName": {
             "value": "WindowsAzure"
@@ -24,13 +24,31 @@
             "value": "NSG_DevOpsTest"
         },
         "adminPassword": {
-            "value": "pa$$w0rd"
+            "value": talavijA_1974
         },
         "storageAccountName": {
-            "value": "bpdevopstest"
+            "value": "bpdevtest"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "bpdevestlogs"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/9abfdea3-bf30-4d59-bc67-7a3dfa22309f/resourceGroups/bpv-devtest-internal/providers/Microsoft.Storage/storageAccounts/bpdevestlogs"
         },
         "subnetName": {
             "value": "DevOpsTest"
+        },
+        "autoShutdownStatus": {
+            "value": "Enabled"
+        },
+        "autoShutdownTime": {
+            "value": "19:00"
+        },
+        "autoShutdownTimeZone": {
+            "value": "W. Europe Standard Time"
+        },
+        "autoShutdownNotificationStatus": {
+            "value": "Disabled"
         }
     }
 }
