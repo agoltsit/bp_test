@@ -364,7 +364,7 @@
             }
         },
         {
-            "name": "microsoft.antimalware-windows-20170825170031",
+            "name": "microsoft.antimalware-windows-20170914122115",
             "apiVersion": "2015-01-01",
             "type": "Microsoft.Resources/deployments",
             "properties": {
